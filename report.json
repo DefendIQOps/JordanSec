@@ -1,0 +1,26 @@
+{
+  "url": "https://kendash.site",
+  "https": true,
+  "present": {},
+  "missing": [
+    "Content-Security-Policy",
+    "Strict-Transport-Security",
+    "X-Frame-Options",
+    "X-Content-Type-Options",
+    "Referrer-Policy",
+    "Permissions-Policy"
+  ],
+  "warnings": [
+    "Server disclosure: Apache/2.4.58 (Ubuntu)",
+    "Missing CSP can allow XSS attacks",
+    "HSTS not enabled",
+    "Missing clickjacking protection",
+    "MIME sniffing protection missing",
+    "Referrer policy not set",
+    "Permissions policy missing"
+  ],
+  "server": "Apache/2.4.58 (Ubuntu)",
+  "status_code": 200,
+  "error": null,
+  "score": 28
+}
