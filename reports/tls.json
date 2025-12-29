@@ -1,0 +1,31 @@
+{
+  "app": "JordanSec",
+  "version": "0.1.0",
+  "author": "Mohmmad Al-Zaben",
+  "target": "example.com",
+  "modules": [
+    {
+      "module": "tls",
+      "score": 100,
+      "grade": "A",
+      "data": {
+        "url": "https://example.com",
+        "host": "example.com",
+        "port": 443,
+        "https": true,
+        "tls_version": "TLSv1.3",
+        "cipher": "TLS_AES_256_GCM_SHA384",
+        "cert_subject": "commonName=example.com",
+        "cert_issuer": "countryName=US / organizationName=SSL Corporation / commonName=Cloudflare TLS Issuing ECC CA 3",
+        "cert_not_before": "Dec 16 19:39:32 2025 GMT",
+        "cert_not_after": "Mar 16 18:32:44 2026 GMT",
+        "cert_days_left": 78,
+        "sni": true,
+        "verified": true,
+        "score": 100,
+        "error": null,
+        "warnings": []
+      }
+    }
+  ]
+}

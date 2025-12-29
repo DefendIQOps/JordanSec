@@ -1,0 +1,15 @@
+JordanSec - Defensive Audit Report
+======================================
+Generated             : 2025-12-27 17:00 UTC
+Target                : None
+HTTPS                 : No
+Status                : None
+Score                 : 0/100
+
+Findings
+--------------------------------------
+All common security headers are present.
+
+Scope & Limitations
+--------------------------------------
+This is a defensive configuration-level audit. No exploitation or intrusive tests were performed.

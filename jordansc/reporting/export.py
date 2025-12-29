@@ -9,3 +9,11 @@ def save_json(data: Dict[str, Any], path: str) -> str:
     with p.open("w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     return str(p)
+
+
+def save_text(text: str, path: str) -> str:
+    p = Path(path).expanduser().resolve()
+    p.parent.mkdir(parents=True, exist_ok=True)
+    with p.open("w", encoding="utf-8") as f:
+        f.write(text)
+    return str(p)

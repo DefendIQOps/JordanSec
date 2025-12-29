@@ -1,0 +1,26 @@
+{
+  "app": "JordanSec",
+  "version": "0.1.0",
+  "author": "Mohmmad Al-Zaben",
+  "target": "example.com",
+  "modules": [
+    {
+      "module": "cookies",
+      "score": 100,
+      "grade": "A",
+      "data": {
+        "url": "https://example.com",
+        "final_url": "https://example.com/",
+        "https": true,
+        "status_code": 200,
+        "cookies_seen": 0,
+        "issues": [],
+        "warnings": [
+          "No cookies detected (no Set-Cookie headers)."
+        ],
+        "error": null,
+        "score": 100
+      }
+    }
+  ]
+}

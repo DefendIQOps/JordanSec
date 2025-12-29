@@ -1,0 +1,39 @@
+{
+  "target": "example.com",
+  "results": {
+    "headers": {
+      "url": "https://example.com",
+      "final_url": "https://example.com/",
+      "https": true,
+      "status_code": 200,
+      "present": {},
+      "missing": [
+        "Content-Security-Policy",
+        "Strict-Transport-Security",
+        "X-Frame-Options",
+        "X-Content-Type-Options",
+        "Referrer-Policy",
+        "Permissions-Policy"
+      ],
+      "warnings": [
+        "Server disclosure: cloudflare",
+        "Missing CSP can increase XSS impact.",
+        "HSTS not enabled.",
+        "Missing clickjacking protection.",
+        "MIME sniffing protection missing.",
+        "Referrer policy not set.",
+        "Permissions-Policy not set."
+      ],
+      "server": "cloudflare",
+      "cookies": [],
+      "score": 28,
+      "error": null
+    }
+  },
+  "summary": {
+    "headers": {
+      "score": 28,
+      "grade": "F"
+    }
+  }
+}

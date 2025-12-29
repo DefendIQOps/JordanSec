@@ -1,0 +1,46 @@
+{
+  "target": "google.com",
+  "results": {
+    "headers": {
+      "url": "https://google.com",
+      "final_url": "https://www.google.com/",
+      "https": true,
+      "status_code": 200,
+      "present": {
+        "X-Frame-Options": "SAMEORIGIN"
+      },
+      "missing": [
+        "Content-Security-Policy",
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy",
+        "Permissions-Policy"
+      ],
+      "warnings": [
+        "Server disclosure: gws",
+        "Missing CSP can increase XSS impact.",
+        "HSTS not enabled.",
+        "MIME sniffing protection missing.",
+        "Referrer policy not set.",
+        "Permissions-Policy not set."
+      ],
+      "server": "gws",
+      "cookies": [
+        {
+          "name": "__Secure-STRP",
+          "secure": true,
+          "httponly": true,
+          "samesite": "strict, AEC=AaJma5vkL9SiIhMVVGmtXAc_u1WbpcU___53a5saJQlvKAUzPU-CY0y-pbA"
+        }
+      ],
+      "score": 40,
+      "error": null
+    }
+  },
+  "summary": {
+    "headers": {
+      "score": 40,
+      "grade": "F"
+    }
+  }
+}
